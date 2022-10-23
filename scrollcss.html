@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn How to create scroll</title>
+</head>
+<body>
+
+    <header>
+        <h1>Create a horizontal scroll</h1>
+    </header>
+    
+
+    <div class="scroll-parent">
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+        <p class="title">Short title 1</p>
+    </div>
+        <div class="scroll-img">
+             <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 2</p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 3</p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 4</p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 5</p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 6</p>
+        </div>
+        <div class="scroll-img">
+             <img src="serenity.jpg" class="s-img">
+             <p class="title">Short title 7</p>
+            </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 8</p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 9</p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 10</p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 11</p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 12 </p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 13</p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 14</p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 15</p>
+        </div>
+        <div class="scroll-img"> 
+            <img src="serenity.jpg" class="s-img">
+            <p class="title">Short title 16</p>
+        </div>
+    </div>
+
+<div class="nonsense">
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam harum, molestiae consequuntur totam iure aperiam fuga repudiandae omnis quidem et alias! Quas, beatae? Est dolor illum explicabo doloribus, vel inventore labore, odio ullam aliquid quasi voluptatem rem obcaecati nemo laudantium adipisci odit modi. Nulla libero ea saepe inventore veritatis dolorum atque quam ducimus tempore quibusdam! Cumque reiciendis accusantium, voluptatibus placeat saepe molestiae in? Nobis assumenda laudantium quia aspernatur dolor. Dignissimos quam doloremque, ducimus dolores reiciendis ea quae nisi aliquam illo ab neque quia, eos facere temporibus. Quasi corporis aliquam quia sint voluptas, eaque quos repudiandae voluptatem, nulla cumque maxime fugiat recusandae nobis minima nam minus perferendis harum, nesciunt nemo ut porro sed quam sit esse! Doloribus saepe, eveniet ipsa expedita laudantium excepturi nisi placeat id aut consequatur quisquam eos tempore maiores inventore, harum accusamus. Commodi exercitationem, inventore unde perferendis, debitis temporibus incidunt similique praesentium iusto reiciendis fugiat quis ut iste libero animi et pariatur eum deserunt aut? Ab illum numquam quam deserunt labore voluptatum assumenda iste omnis aliquam fugit beatae aspernatur explicabo sint animi, sed itaque blanditiis consequatur quos aliquid quibusdam recusandae cupiditate ducimus quae iure? Cum provident fuga magni odio. Doloribus deserunt, minus quibusdam, non dolorem voluptas aut perferendis laboriosam quas, quod tempore unde. Nesciunt laborum, ut voluptatem quibusdam veritatis eum maxime rem accusamus fuga porro iure molestiae aliquid mollitia doloribus alias est, quam atque, architecto dolores. Laboriosam rerum, nostrum amet mollitia quia, saepe reprehenderit atque dolores aspernatur nisi cum sit maxime perferendis distinctio veniam quibusdam dicta dolor magnam omnis cumque doloremque? Eaque blanditiis eos soluta, molestias voluptas delectus magnam omnis, aliquam sint laudantium ea dolorem facere ipsum dolor numquam illum saepe ullam provident illo magni dignissimos eligendi accusantium unde! Culpa, voluptates qui libero quod voluptas magni, cumque et nam eaque minima odit saepe repellat dicta maiores voluptatibus.</h1>
+</div>
+
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        header {
+            padding: 50px 0;
+            text-align: center;
+            background-color: #DECEBF;
+            color: #F6F1EC;
+        }
+
+        .scroll-parent {
+            padding: 50px 0;
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 21% ;
+            gap: 0.5em;
+            background-color: #152238;
+            overflow-x: auto;
+            overscroll-behavior-inline: contain;
+        }
+        .scroll-img {
+            background-color: #192841;
+            padding: 0.5em;
+            border-radius: 0.3em;
+            box-shadow: 14px 28px 14px 0px rgba(0,0,0,0.13);
+-webkit-box-shadow: 14px 28px 14px 0px rgba(0,0,0,0.13);
+-moz-box-shadow: 14px 28px 14px 0px rgba(0,0,0,0.13);
+           
+           
+        }
+        .title {
+            color: #f1f1f1;
+            text-align: center;
+        }
+    .s-img {
+        inline-size: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+
+    }
+    ::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555; 
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
+
+
+@media all and (max-width: 480px) {
+    .scroll-parent {
+        grid-auto-columns: 45% ;
+    }
+}
+
+    </style>
+</body>
+</html>
